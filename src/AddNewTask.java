@@ -3,7 +3,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class ToDoApp {
+public class AddNewTask {
 
     public static void main(String[] args) {
 
@@ -13,11 +13,19 @@ public class ToDoApp {
         if(args[0].equals ("-l")){
             listTasks();
         }
+        if(args[0].equals ("-a")) {
+            if (args.length < 2) {
+                System.out.println("nem irtal be eleget");
+            } else {
+            addTask(args[1]); }
+        }
     }
+
+
 
     public static void listTasks () {
 
-        try {Path filePath = Paths.get("listoftasks.txt");
+        try {Path filePath = Paths.get("listoftasks3.txt");
             List<String> lines = Files.readAllLines(filePath);
 
             if (lines.size() == 0) {
@@ -33,6 +41,25 @@ public class ToDoApp {
         } catch (Exception e){
             System.out.println("Uh-oh, could not read the file!");
         }
+
+    }
+
+    public static void addTask (String xy) {
+
+
+                try {
+
+                    Path filePath = Paths.get("listoftasks3.txt");
+                    List<String> lines = Files.readAllLines(filePath);
+
+                    lines.add(xy);
+
+                    Files.write(filePath, lines);
+                }
+
+                catch (Exception e) {
+                    System.out.println("Uh-oh, could not write the file!");
+                }
 
     }
 

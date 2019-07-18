@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c238d2-f348-4374-9a75-ba8b134a0e28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ToDoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listoftasks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddNewTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToDoAppEmptyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listoftasks2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listoftasks3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listoftasks4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/isteneszsolt-todo-app/ToDoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/isteneszsolt-todo-app/ToDoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/isteneszsolt-todo-app/listoftasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/isteneszsolt-todo-app/listoftasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ToDoApp.java">
+        <entry file="file://$PROJECT_DIR$/src/RemoveTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="-848">
+              <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,10 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/listoftasks.txt">
+        <entry file="file://$PROJECT_DIR$/src/listoftasks4.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -55,14 +64,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/ToDoApp/listoftasks.txt" />
         <option value="$PROJECT_DIR$/src/ToDoApp/ToDoApp.java" />
+        <option value="$PROJECT_DIR$/src/listoftasks.txt" />
+        <option value="$PROJECT_DIR$/src/listoftasks3.txt" />
+        <option value="$PROJECT_DIR$/src/ToDoAppEmptyList.java" />
         <option value="$PROJECT_DIR$/src/ToDoApp.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/listoftasks4.txt" />
+        <option value="$PROJECT_DIR$/src/AddNewTask.java" />
+        <option value="$PROJECT_DIR$/src/RemoveTask.java" />
       </list>
     </option>
   </component>
@@ -98,6 +106,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../isteneszsolt/week3/w3d2" />
@@ -122,8 +131,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ToDoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToDoApp" />
+    <configuration name="ToDoAppEmptyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToDoAppEmptyList" />
       <module name="isteneszsolt-todo-app" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ToDoApp" />
+        <item itemvalue="Application.ToDoAppEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -152,18 +161,17 @@
       <option name="presentableId" value="Default" />
       <updated>1563440489276</updated>
       <workItem from="1563440492667" duration="341000" />
-      <workItem from="1563440853637" duration="3931000" />
+      <workItem from="1563440853637" duration="15328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4272000" />
+    <option name="totallyTimeSpent" value="15669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33509833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33509833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -172,7 +180,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -180,7 +188,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -198,7 +206,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ToDoApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToDoAppEmptyList.java" />
     <entry file="file://$PROJECT_DIR$/src/ToDoApp/listTasks/txt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -209,17 +217,70 @@
     <entry file="file://$PROJECT_DIR$/src/ToDoApp/ToDoApp.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToDoAppEmptyList.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToDoApp.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/listoftasks.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listoftasks2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToDoAppEmptyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ToDoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listoftasks3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddNewTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listoftasks4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-848">
+          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
